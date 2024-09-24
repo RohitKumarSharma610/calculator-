@@ -9,8 +9,9 @@ for(i; i<a.length;i++){
         if(a.value==''){
            a.value=''
         } else {
-         let output = eval(a.value)
-                a.value = output}
+         let output = eval(a.value);
+       a.value = output
+    }
       } else if (e.target.innerHTML == "del"){
          a.value = a.value.slice(0 , -1)
     
@@ -32,9 +33,9 @@ if (operators.includes(lastChar)) {
 if (inputField.value) {
   try {
       let output = eval(inputField.value);
-      inputField.value = output; // Update the input field with the result
+      inputField.value = output; 
   } catch (error) {
-     
+     return a.value ;
   }
 }
 

@@ -8,21 +8,21 @@
     width: 300px;
     height: 350px;
     border: 2px solid black;
-    margin: 40px auto;
-    background-color: rgb(141, 203, 225);
+    margin: 50px auto;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7317051820728291) 100%);
     border-radius: 10px;
 }
 
 input {
     width: 85%;
     height: 45px;
-    border: 2px solid black;
-    font-size: 20px;
-    margin: 19px;
+    border: 1px solid ;
+    font-size: 25px;
+    margin: 22px;
     margin-bottom: 10px;
     padding: 5px ;
     border-radius: 7px;
-    background-color: rgb(247, 229, 206);
+    background-color:rgba(191, 197, 244, 0.685)  ;
 }
 
 .span {
@@ -33,7 +33,7 @@ input {
     width: 44px;
     border: 2px solid black;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #3b7d89;
     font-size: 20px;
     border-radius: 30%;
     box-shadow: 2px 2px black;
@@ -47,22 +47,21 @@ input {
 
 .span:hover {
     font-weight: 600;
-    /* transform: scale(1.1); */
     
 }
 
 .col {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     color: white;
 }
 
 .col1 {
-    background-color: black;
+    background-color: rgb(12, 147, 129);
     color: white;
-    box-shadow: 2px 2px rgb(226, 16, 16);
+    box-shadow: 2px 2px rgb(5, 4, 4);
 }
 
 .col2 {
-    background-color: orange;
+    background-color:orangered;
     color: white;
 }
